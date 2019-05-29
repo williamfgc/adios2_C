@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
+# Vi(m) temporary buffer files
+*.sw?
 
-# Compiled Object files
-*.slo
-*.lo
+# Emacs temporary files
+*~
+
+#Eclipse
+.cproject
+.project
+.settings/
+.pydevproject
+
+#binary, library, or temporary build files
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.so
+*.tmp
 *.exe
+*.bp
 *.out
-*.app
+*.pyc
+*.bp
+*.bp.dir
+build/
+
+# Mac OSX finder-related files
+.DS_Store
+
+# Doxygen generated files
+html/
+*.html
+docs/api_doxygen/CXX11/xml/
+docs/api_doxygen/C/xml/
+
+# Visual Studio
+.vs/
+CMakeSettings.json
