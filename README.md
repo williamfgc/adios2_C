@@ -12,4 +12,8 @@ To build:
 - `make`
 
 To run (from inside build):
+
 - `mpirun -n 2 examples/writer_weak_scaling.exe 4 8`
+- `mpirun -n 2 examples/reader_weak_scaling.exe`
+
+Writer and Reader must have the same number of processes (-n nproc)
